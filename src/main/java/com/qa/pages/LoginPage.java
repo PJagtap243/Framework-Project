@@ -10,6 +10,7 @@ public class LoginPage {
 	private By emailIdField = By.id("input-email");
 	private By passwordField = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@type='submit']");
+	private By demoPath = By.id("Demo");
 	
 	
 	public LoginPage(WebDriver driver) {
