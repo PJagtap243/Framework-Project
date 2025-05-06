@@ -1,6 +1,12 @@
 package com.qa.pages;
 
+import org.openqa.selenium.By;
+
 public class CartPage {
 
-	String title = "Cart Page";
+	By pageTitle = By.id("title");
+	
+	public void getTitle() {
+		System.out.println("This is page action..");
+	}
 }
